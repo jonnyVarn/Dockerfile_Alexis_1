@@ -1,3 +1,3 @@
 FROM alpine:latest
-RUN apk add vim
-CMD ["ping 8.8.8.8"]
+RUN apk add py3-pip; pip3 install node django
+CMD ["/bin/ash"]
